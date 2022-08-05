@@ -1,4 +1,4 @@
-## mxr-node-app
+## mxr-create-node-app
 > my own node app template
 
 This repository contains, how says the title, my own Node JS template.
