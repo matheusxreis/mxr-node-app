@@ -1,8 +1,9 @@
 {
-  "name": "my-nodejs-template",
+  "name": "mxr-node-app",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "/dist/index.js",
+  "bin":"bin/cli.js",
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules ./src/index.ts",
 	"start":"node ./dist/index.js",

@@ -1,15 +1,15 @@
 ## My NodeJS Template
 
-This repository contains, how to say the title, my Node JS template.
+This repository contains, how says the title, my own Node JS template.
 
-I've decided to make this repository to do easier when I'll create a Node JS API (and who knows it helps another people), program or something like that. That contains all that I usually use in my applications.
+I've decided to do this repository to do easier when I'll create a Node JS API (and who knows it helps another people), program or something like that. It contains all that I usually use in my applications.
 
 That is:
 
 - **[Typescript](https://www.typescriptlang.org)** and **[ts-node-dev](https://www.npmjs.com/package/ts-node-dev)**;
 - **[Commitlint](https://commitlint.js.org/#/) and [Husky](https://github.com/typicode/husky)**;
 - **[Eslint](https://github.com/eslint/eslint) and [Prettier](https://prettier.io)**;
-- Jest.
+- **[Jest](https://jestjs.io)**.
 
 ### About Typescript
 
@@ -60,11 +60,17 @@ The Prettier library, for his time, is used how code formatter. It format our co
 
 Extensions used in VS Code: Eslint from Microsof and Prettier Code Formatter from Prettier.
 
-What put in VS Code's settings.json:
+What putting in VS Code's settings.json:
 
 ```json
     "editor.formatOnSave": true, //this way editor format your code when you save
     "prettier.eslintIntegration": true, //prettier format according with eslint rules
 ```
 
-In src/example.ts you can fiind a simple example about the styled guide used.
+In src/index.ts you can fiind a simple example about the styled guide used.
+
+### About Jest
+
+Jest is the library which I use to test my applications. There is no much to talk about. I've tried keep jest.config.ts as simples as it come and installed ts-jest because of Typescript.
+
+:metal:

@@ -1,4 +1,4 @@
-import { sum, isUppercase } from '../src/example';
+import { sum, isUppercase } from '../src';
 
 it('should sum two differents number', () => {
   expect(sum(6, 8)).toBe(14);
