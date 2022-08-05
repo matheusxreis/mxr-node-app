@@ -79,6 +79,6 @@ Jest is the library which I use to test my applications. There is no much to tal
 You can get this template in github or:
 
 ```bash 
-    npx mxr-node-app my-app
+    npx mxr-create-node-app my-app
 ```
 That is all, folks! :metal:
