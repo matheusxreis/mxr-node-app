@@ -1,4 +1,5 @@
-## My NodeJS Template
+## mxr-node-app
+> my own node app template
 
 This repository contains, how says the title, my own Node JS template.
 
@@ -38,7 +39,7 @@ This template has the commitlint that check if your commit messages is, in accor
 
 The commitlint check your message commit and the husky, throught git hooks, ensures that commitlint script be executed when you commit.
 
-It make yours commit more understanble. :happy:
+It make yours commit more understanble. :smile:
 
 How commit:
 
@@ -63,8 +64,8 @@ Extensions used in VS Code: Eslint from Microsof and Prettier Code Formatter fro
 What putting in VS Code's settings.json:
 
 ```json
-    "editor.formatOnSave": true, //this way editor format your code when you save
-    "prettier.eslintIntegration": true, //prettier format according with eslint rules
+    "editor.formatOnSave": true, 
+    "prettier.eslintIntegration": true, 
 ```
 
 In src/index.ts you can fiind a simple example about the styled guide used.
@@ -73,4 +74,11 @@ In src/index.ts you can fiind a simple example about the styled guide used.
 
 Jest is the library which I use to test my applications. There is no much to talk about. I've tried keep jest.config.ts as simples as it come and installed ts-jest because of Typescript.
 
-:metal:
+### How use: 
+
+You can get this template in github or:
+
+```bash 
+    npx mxr-node-app my-app
+```
+That is all, folks! :metal:
