@@ -1,11 +1,12 @@
 {
+  "name": "mxr-node-app",
+  "version": "1.0.15",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules ./src/index.ts",
 	"start":"node ./dist/index.js",
     "build": "rm -rf ./dist tsc",
-    "test": "jest",
-    "postinstall": "husky install"
-  },
+    "test": "jest"
+    },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
