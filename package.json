@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules ./src/index.ts",
-	"start":"node ./dist/index.js",
+	  "dev:watch": "ts-node-dev -r tsconfig-paths/register --inspect --respawn --ignore-watch node_modules ./src/index.ts",
+    "start":"node ./dist/index.js",
     "build": "rm -rf ./dist tsc",
     "test": "jest"
   },
