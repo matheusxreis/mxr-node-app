@@ -1,6 +1,7 @@
 {
   "name": "mxr-node-app",
   "version": "1.0.0",
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules ./src/index.ts",
 	  "dev:watch": "ts-node-dev -r tsconfig-paths/register --inspect --respawn --ignore-watch node_modules ./src/index.ts",
